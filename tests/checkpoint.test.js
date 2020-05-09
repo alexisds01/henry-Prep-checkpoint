@@ -79,7 +79,7 @@ describe('Funciones', function() {
     it('should return "{ nombre: "toni", edad: 33 }"', function() {
       expect(buscarAmigo(amigos, 'toni').nombre).toBe('toni');
     });
-    it('should return "{ nombre: "toni", edad: 33 }"', function() {
+    it('should return "{ nombre: "Emi", edad: 25 }"', function() {
       expect(buscarAmigo(amigos, 'Emi').nombre).toBe('Emi');
     });
   });
