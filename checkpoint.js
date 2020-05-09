@@ -208,7 +208,8 @@ function filtrar(funcion) {
   //   return p.price >= 50;
   // }) => [{price: 100, name:'tv'}]
 
-    return Array.filter(funcion);
+  
+
  
 };
 
